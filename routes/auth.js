@@ -1,5 +1,5 @@
 const express = require("express")
-const router = Router()
+const router = express.Router();
 
 
 router.post("/register", (req, res) => {

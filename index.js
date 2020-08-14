@@ -8,7 +8,7 @@ dotenv.config()
 //CONNECT TO DB
 mongoose.connect(
     process.env.DB_CONNECT,
-    { useNewUrlParser: true },
+    { useNewUrlParser: true, useUnifiedTopology: true },
     () => console.log("CONNECTED TO DB")
 )
 
@@ -19,5 +19,5 @@ const authRoute = require("./routes/auth");
 app.use("/api/user", authRoute)
 
 app.listen(4000, function () {
-    console.log("SERVER IS CONNECTED:" + port)
+    console.log("SERVER IS CONNECTED:")
 })
