@@ -1,0 +1,27 @@
+{
+  "name": "auth1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nreevevi6512/Auth1.git"
+  },
+  "author": "Reeve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nreevevi6512/Auth1/issues"
+  },
+  "homepage": "https://github.com/nreevevi6512/Auth1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.29"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
